@@ -8,7 +8,8 @@ func main() {
 	hello := &age
 	fmt.Println("Age:", age)
 	fmt.Println("Hello:", hello)
-	fmt.Print("adultYear:", adultYear(age))
+	fmt.Println("Hello:", *hello)
+	fmt.Println("adultYear:", adultYear(age))
 }
 
 func adultYear(age int) int {
